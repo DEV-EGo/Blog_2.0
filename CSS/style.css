@@ -63,3 +63,12 @@ a.btn:hover {
 .banner-info, .banner-image{
     margin: 30px 0;
 }
+
+.form {
+    margin: 0 auto;
+    width:80%;
+}
+
+.row {
+    float: left;
+}
