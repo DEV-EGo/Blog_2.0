@@ -92,3 +92,8 @@ height: 300px;
 .banner-info {
     background-color: #aeffae8a;
 }
+
+.logo{
+    height: 50px;
+    padding: 3px 0px;
+}
