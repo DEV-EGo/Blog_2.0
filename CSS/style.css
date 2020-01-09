@@ -4,7 +4,7 @@
 }
 
 html {
-    background: #77ffff96;
+    background: #bebf9f;
 }
 
 .header {
@@ -12,7 +12,8 @@ html {
 }
 
 .navbar-style {
-    box-shadow: 0 5px 10px #efefef ;
+    background-color: #89b578;
+    box-shadow: 0 5px 10px #4e4545 ;
     text-transform: uppercase;
 }
 
@@ -75,4 +76,12 @@ a.btn:hover {
 
 .img-responsive {
 height: 300px;
+}
+
+.header{
+    background-color: lightyellow;
+}
+
+.banner-info {
+    background-color: #aeffae8a;
 }
