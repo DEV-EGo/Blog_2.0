@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-html, body {
+html {
     background: #77ffff96;
 }
 
@@ -71,4 +71,8 @@ a.btn:hover {
 
 .row {
     float: left;
+}
+
+.img-responsive {
+height: 300px;
 }
