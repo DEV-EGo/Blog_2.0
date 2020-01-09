@@ -7,11 +7,18 @@ html {
     background: #bebf9f;
 }
 
+
+
 .header {
     height: 100vh;
 }
 
 .navbar-style {
+
+    font-family: 'Caesar Dressing';
+    font-size: 16px;
+
+
     background-color: #89b578;
     box-shadow: 0 5px 10px #4e4545 ;
     text-transform: uppercase;
