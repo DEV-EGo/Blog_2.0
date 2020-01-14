@@ -97,11 +97,11 @@ padding: 10px;
 
 .img-responsive-html{
 position: relative;
-left: 240px;
+left: 52px;
 
-height: 300px;
+height: 250px;
 border: 1px solid;
-padding: 10px;
+padding: 20px;
 box-shadow: 5px 10px 18px #123a01;
 }
 
@@ -148,11 +148,12 @@ color: darkslateblue;
   
   .flex-container .box {
     /* background-color: #f1f1f1; */
-    width: 60%;
-    margin: 10px;
+    width: 80rem;
+    margin: -4px;
     text-align: center;
-    line-height: 14px;
-    font-size: 7px;
+    line-height: 19px;
+    font-size: 12px;
+    padding: 14px 60px 17px;
   }
 
   .flex-container-2{
