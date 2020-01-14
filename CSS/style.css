@@ -7,6 +7,9 @@
 html {
     background: #bebf9f;
 }
+body {
+    margin: 0px -3% 300% ;
+}
 h1 {
     text-align: center;
 }
@@ -69,12 +72,12 @@ a.btn:hover {
     transition: 0.3s;
 }
 
-.banner-info, .banner-image{
+.banner-intro, .banner-image{
     margin: 30px 0;
     
 }
 
-.banner-info{
+.banner-intro{
 
 border: 1px solid;
 padding: 10px;
@@ -98,6 +101,7 @@ padding: 10px;
 
 }
 
+
 .img-responsive-html{
 position: relative;
 left: 52px;
@@ -105,10 +109,10 @@ left: 52px;
 height: 250px;
 border: 1px solid;
 padding: 20px;
-box-shadow: 5px 10px 18px #123a01;
-}
-
-.img-responsive-lebron{
+box-shadow: 5px 10px 18px #123a01;}
+/* } ^^ immigration immage */
+  /* ======================================================== */
+/* .img-responsive-lebron{
     position: relative;
     left: 370px;
     
@@ -116,7 +120,7 @@ box-shadow: 5px 10px 18px #123a01;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px 18px #123a01;
-    }
+    } */
 
 .header{
     background-color: lightyellow;
@@ -129,9 +133,13 @@ box-shadow: 5px 10px 18px #123a01;
     left: 815px;
     width: 622px;
 }
+/* info on second page for immigration */
 .banner-immigration{
 background-color: #aeffae8a;
 color: darkslateblue;
+}
+.banner-secondImmage {
+    height: 12%;
 }
 
 .big-text{
