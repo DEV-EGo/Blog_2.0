@@ -1,12 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     background: #bebf9f;
 }
-
+h1 {
+    text-align: center;
+}
 .header {
     height: 100vh;
 }
@@ -165,4 +168,10 @@ color: darkslateblue;
     flex-wrap: nowrap;
     /* background-color: #aeffae8a; */
   }
- 
+ @media only screen and (min-width: 600px){
+     .flex-container{ width: 12%;}
+ }
+  @media only screen and (min-width:768px){
+      .flex-container{ width: 100.33%;}
+      .flex-container-2 {width: 100.33%; }
+  }
