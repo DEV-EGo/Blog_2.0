@@ -155,3 +155,9 @@ color: darkslateblue;
     line-height: 14px;
     font-size: 7px;
   }
+
+  .flex-container-2{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(49, 64, 80);
+  }
