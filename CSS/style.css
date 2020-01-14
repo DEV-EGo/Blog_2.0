@@ -121,6 +121,10 @@ box-shadow: 5px 10px 18px #123a01;
 
 .banner-info {
     background-color: #aeffae8a;
+    padding: 10px;
+    position: relative;
+    left: 815px;
+    width: 622px;
 }
 .banner-immigration{
 background-color: #aeffae8a;
