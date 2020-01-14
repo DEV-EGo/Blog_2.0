@@ -13,8 +13,11 @@ body {
 h1 {
     text-align: center;
 }
-.header {
-    height: 100vh;
+.header{
+    background: url(img/statue.jpg);
+    height: 50vh;
+    background-color: lightyellow;
+
 }
 
 .navbar-style {
@@ -134,11 +137,6 @@ box-shadow: 5px 10px 18px #123a01;}
     padding: 10px;
     box-shadow: 5px 10px 18px #123a01;
     } */
-
-header{
-    background-color: lightyellow;
-    background-image: url("./img/statue.jpg");
-}
 
 .banner-info {
     background-color: #aeffae8a;
