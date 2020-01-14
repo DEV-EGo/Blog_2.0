@@ -72,33 +72,46 @@ a.btn:hover {
     transition: 0.3s;
 }
 
-.banner-intro, .banner-image{
-    margin: 30px 0;
-    
+/* --------------------first page------------------------ */
+.row {
+    float: right;
+    /* background-color: #f1f1f1; */
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 15px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display:table;
 }
 
 .banner-intro{
-
 border: 1px solid;
 padding: 10px;
+width: 25%;
+float: left;
 }
-
+.banner-intro2{
+    border : 1px solid;
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
+.banner-intro3{
+    border : 1px solid;
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
 
 .form {
     margin: 0 auto;
     width:80%;
-}
-
-.row {
-    float: right;
-
-    /* background-color: #f1f1f1; */
-    width: 60%;
-    margin: 10px;
-    text-align: center;
-    line-height: 14px;
-    font-size: 7px;
-
 }
 
 
@@ -122,8 +135,9 @@ box-shadow: 5px 10px 18px #123a01;}
     box-shadow: 5px 10px 18px #123a01;
     } */
 
-.header{
+header{
     background-color: lightyellow;
+    background-image: url("./img/statue.jpg");
 }
 
 .banner-info {
@@ -153,6 +167,12 @@ color: darkslateblue;
 }
 .big-text {
     font-size: 25px;
+}
+
+.flex-container-IntroPage {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(49, 64, 80);
 }
 
 .flex-container {
