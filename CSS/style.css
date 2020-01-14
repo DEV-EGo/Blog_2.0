@@ -119,6 +119,9 @@ box-shadow: 5px 10px 18px #123a01;
     background-color: lightyellow;
 }
 
+.banner-info {
+    background-color: #aeffae8a;
+}
 .banner-immigration{
 background-color: #aeffae8a;
 color: darkslateblue;
@@ -127,10 +130,6 @@ color: darkslateblue;
 .big-text{
     font-size: 25px;
 
-}
-
-.banner-info {
-    background-color: #aeffae8a;
 }
 
 .logo{
@@ -157,7 +156,8 @@ color: darkslateblue;
   }
 
   .flex-container-2{
-    display: flex;
+    /* display: flex; */
     flex-wrap: nowrap;
-    background-color: rgb(49, 64, 80);
+    /* background-color: #aeffae8a; */
   }
+ 
