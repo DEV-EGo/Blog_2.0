@@ -157,15 +157,17 @@ padding: 20px;
 box-shadow: 5px 10px 18px #123a01;}
 /* } ^^ immigration immage */
   /* ======================================================== */
-/* .img-responsive-lebron{
+
+
+.img-responsive-lebron{
     position: relative;
     left: 370px;
-    
-    height: 300px;
+    width: 30em;
+    height: 30em;
     border: 1px solid;
-    padding: 10px;
+    padding: 3px;
     box-shadow: 5px 10px 18px #123a01;
-    } */
+    }
 
 .banner-HereToServe {
     background-color: #aeffae8a;
@@ -209,7 +211,6 @@ color: darkslateblue;
   }
   
   .flex-container .box {
-    /* background-color: #f1f1f1; */
     width: 80rem;
     margin: -4px;
     text-align: center;
