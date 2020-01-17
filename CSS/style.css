@@ -92,10 +92,10 @@ a.btn:hover {
     float: right;
     /* background-color: #f1f1f1; */
     width: 80%;
-    margin: 10px;
+    margin: 25px;
     text-align: center;
-    line-height: 14px;
-    font-size: 15px;
+    line-height: 25px;
+    font-size: 22px;
 
 }
 
@@ -106,19 +106,31 @@ a.btn:hover {
 }
 
 .banner-intro{
-border: 1px solid;
-padding: 10px;
-width: 25%;
+
+    border-left: 6px solid;
+    background-color: #acc8f138;
+
+border: 1px outset;
+padding: 25px;
+width: 30%;
 float: left;
 }
 .banner-intro2{
-    border : 1px solid;
+
+    border-left: 6px solid;
+    background-color: #acc8f138;
+
+    border : 1px outset;
     padding: 10px;
     width: 25%;
     float: left;
 }
 .banner-intro3{
-    border : 1px solid;
+
+    border-left: 6px solid;
+    background-color: #acc8f138;
+
+    border : 1px outset;
     padding: 10px;
     width: 25%;
     float: left;
