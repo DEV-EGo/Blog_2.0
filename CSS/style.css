@@ -6,6 +6,8 @@
 
 html {
     background: #bebf9f;
+    /* background-image: url("/img/statue.jpg"); */
+
 }
 body {
     margin: 0px -3% 300% ;
@@ -13,8 +15,7 @@ body {
 h1 {
     text-align: center;
 }
-header .header{
-    background-image: url("img/statue.jpg");
+.header{
     height: 50vh;
     background-color: lightyellow;
 
@@ -108,7 +109,7 @@ a.btn:hover {
 .banner-intro{
 
     border-left: 6px solid;
-    background-color: #acc8f138;
+    background-color: #2778ef1a;
 
 border: 1px outset;
 padding: 25px;
@@ -118,7 +119,7 @@ float: left;
 .banner-intro2{
 
     border-left: 6px solid;
-    background-color: #acc8f138;
+    background-color: #2778ef1a;
 
     border : 1px outset;
     padding: 10px;
@@ -128,7 +129,7 @@ float: left;
 .banner-intro3{
 
     border-left: 6px solid;
-    background-color: #acc8f138;
+    background-color: #2778ef1a;
 
     border : 1px outset;
     padding: 10px;
