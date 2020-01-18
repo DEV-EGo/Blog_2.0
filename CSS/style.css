@@ -8,6 +8,9 @@ html {
     background: #bebf9f;
 
 }
+.body {
+    background-color: black;
+}
 body {
     margin: 0px -3% 300% ;
     background-repeat: no-repeat;
@@ -171,7 +174,7 @@ box-shadow: 5px 10px 18px #123a01;
     /* ====================^heretoserve immage^================================== */
 .img-responsive-lebron{
     position: relative;
-    left: 370px;
+    float: left;    
     width: 30em;
     height: 30em;
     border: 1px solid;
@@ -233,10 +236,20 @@ color: darkslateblue;
     flex-wrap: nowrap;
     /* background-color: #aeffae8a; */
   }
- @media only screen and (min-width: 600px){
-     .flex-container{ width: 12%;}
- }
-  @media only screen and (min-width:768px){
-      .flex-container{ width: 100.33%;}
-      .flex-container-2 {width: 100.33%; }
+ 
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
   }
