@@ -199,7 +199,13 @@ border-radius: 20px;
 /* info on second page for immigration */
 .banner-immigration{
 background-color: #f9f9f9;
-color: darkslateblue;
+    color: darkslateblue;
+    border: 2px solid;
+    padding: -6px;
+    border-radius: 50px;
+    width: 100%;
+    height: 35%;
+    margin: 0% 14% 0%;
 /* border: 2px solid;
 padding: 10px;
 border-radius: 20px; */
