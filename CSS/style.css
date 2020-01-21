@@ -267,6 +267,17 @@ border-radius: 20px; */
     flex-wrap: nowrap;
     /* background-color: #aeffae8a; */
   }
+.secondpage_blog{
+    background-color: #f9f9f9;
+    color: darkslateblue;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 45%;
+    height: 45%;
+    margin: 1% 5% -6%;
+    padding: 10px;
+}
+
  
   @media only screen and (max-width:800px) {
     /* For tablets: */
