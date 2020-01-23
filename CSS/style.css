@@ -236,6 +236,12 @@ float: left;
         padding: 28px;
         /* box-shadow: 5px 10px 18px #123a01; */
         }
+
+        .banner-image-firstblog {
+            float: left;
+            padding: 7px;
+            margin: 0px 299px 0px;
+        }
         
 
 /* ====================^firstpage immages^==================================== */
